@@ -1,0 +1,66 @@
+<html>
+<head>
+   <style>
+      *{
+        padding: 5;
+        margin: 5;
+
+      }
+      button{
+        width: 100;
+        height: 100;
+        font-size: 35;
+        margin: 20;
+        cursor: pointer;
+
+      }
+      .textview{
+        width: 217;
+        margin: 5;
+        font-size: 25;
+        padding: 5;
+
+      }
+      
+  </style>
+ </head>
+    <body>
+      <FORM NAME="Calculater">
+      <TABLE BORDER=5>
+      <TR>
+      <TD>
+      <INPUT TYPE="text"   NAME="Input" Size="25">
+      <br>
+      </TD>
+      </TR>
+      <TR>
+      <TD>
+      <INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calculater.Input.value += '1'">
+      <INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calculater.Input.value += '2'">
+      <INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calculater.Input.value += '3'">
+      <INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calculater.Input.value += ' + '">
+         <br>
+      <INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calculater.Input.value += '4'">
+      <INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calculater.Input.value += '5'">
+      <INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calculater.Input.value += '6'">
+      <INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calculater.Input.value += ' - '">
+          <br>
+      <INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calculater.Input.value += '7'">
+      <INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calculater.Input.value += '8'">
+      <INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calculater.Input.value += '9'">
+      <INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calculater.Input.value += ' * '">
+         <br>
+      <INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calculater.Input.value = 'c'">
+      <INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calculater.Input.value += '0'">
+      <INPUT TYPE="button" NAME="result"  VALUE="  =  " OnClick="Calculater.Input.value = eval(Calculater.Input.value)">
+      <INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calculater.Input.value += ' / '">
+         <br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+
+
+</body>
+
+</html>
